@@ -9,8 +9,7 @@ import React, {useState, useRef, useEffect} from 'react'
 import Link from 'next/link'
 import ArrowDown from './iconComponents/arrowDown';
 import ArrowUp from './iconComponents/arrowUp';
-import { gsap } from "gsap";
-import { useGSAP } from '@gsap/react';
+
 
 const menuLink = [
     {path:'/', label: 'Home'},

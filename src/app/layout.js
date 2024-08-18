@@ -123,6 +123,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <meta name="google-site-verification" content="SXc9OTS-ebHQvjhEU9zZ3ptvF8VttgPm4Uo5h6mVVw4" />
+      </head>
       <body className={inter.className}>
         <div className="max-w-[500px] mx-auto">
 
